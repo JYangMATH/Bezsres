@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2020" minor="2"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple\351\273\230\350\256\244\351\205\215\347\275\256" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false" editable="true">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" compactdisplay="false" preplot="" helpbrowser="standard" displayprecision="3" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="1000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" historytimestamp="false" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="2000" rtablesize="[10, 10]" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" ansicolor="[]" elisiondigitsthreshold="1000" showassumed="1" ansilprint="false" trailingsemicolon="true" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="SimSun" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="SimSun" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[175,0,175]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="SimSun" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Heading 1" alignment="centred">Two Variants of Bezout Subresultants for Several Univariate Polynomials </Text-field>
+</Input>
+</Group>
+<Group labelreference="L53" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart:
+with(LinearAlgebra):
+with(combinat):</Text-field>
+</Input>
+</Group>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">Utilities</Text-field></Title>
+<Group labelreference="L34" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ss := proc(mu1,mu2)
+  local i;
+  if add(mu1)&gt;add(mu2) then return true fi;
+  for i from 1 to nops(mu1) do
+    if mu1[i] &gt; mu2[i] then return true  fi;
+    if mu1[i] &lt; mu2[i] then return false fi;
+  od;
+  return false;
+end:
+
+Gen_deltas := proc(t,md)
+  local deltas,T,ti;
+  coeffs(expand((add(x[i],i=1..t)+1)^md),[x[i]$i=1..t],`T`);
+  T := [T];
+  T := map(ti-&gt;[seq(degree(ti,x[i]),i=1..t)],T);
+  T := sort(T,ss);
+  return T;
+end:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L36" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">nops(Gen_deltas(2, 12));</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEjOTFGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">IiMiKg==</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L54" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">nops(Gen_deltas(4, 8));</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEkNDk1RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">IiQmXA==</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">Program</Text-field></Title>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Common</Text-field></Title>
+<Group labelreference="L2" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Matrix_X := proc(d0,delta,h,x)
+  local X,i;
+  X   := Matrix(h,d0-add(delta),0);
+  for i from 1 to d0-add(delta) do
+    X[i,  i] :=  x;
+    if i+1&lt;=h then 
+      X[i+1,i] := -1;
+    fi;
+  od;
+  for i from 1 to d0-add(delta) do
+  od;
+  return X;
+end:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L45" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Matrix_X(4,[1,1],4,x)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkqbWNvbXBsZXRlRzYjL0krbW9kdWxlbmFtZUc2IkksVHlwZXNldHRpbmdHSShfc3lzbGliR0YnNiQtSShtZmVuY2VkR0YkNigtSSVtcm93R0YkNictSSdtdGFibGVHRiQ2OC1JJG10ckdGJDYnLUkkbXRkR0YkNigtSSNtaUdGJDYlUSJ4RicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLyUpcm93YWxpZ25HUSFGJy8lLGNvbHVtbmFsaWduR0ZGLyUrZ3JvdXBhbGlnbkdGRi8lKHJvd3NwYW5HUSIxRicvJStjb2x1bW5zcGFuR0ZNLUY4NigtSSNtbkdGJDYkUSIwRicvRkJRJ25vcm1hbEYnRkRGR0ZJRktGTkZERkdGSS1GNTYnLUY4NigtRlM2JFErJnVtaW51czA7MUYnRlZGREZHRklGS0ZORjdGREZHRkktRjU2J0ZQRlpGREZHRkktRjU2J0ZQRlBGREZHRkkvJSZhbGlnbkdRJWF4aXNGJy9GRVEpYmFzZWxpbmVGJy9GSFEnY2VudGVyRicvRkpRJ3xmcmxlZnR8aHJGJy8lL2FsaWdubWVudHNjb3BlR0ZALyUsY29sdW1ud2lkdGhHUSVhdXRvRicvJSZ3aWR0aEdGam8vJStyb3dzcGFjaW5nR1EmMS4wZXhGJy8lLmNvbHVtbnNwYWNpbmdHUSYwLjhlbUYnLyUpcm93bGluZXNHUSVub25lRicvJSxjb2x1bW5saW5lc0dGZXAvJSZmcmFtZUdGZXAvJS1mcmFtZXNwYWNpbmdHUSwwLjRlbX4wLjVleEYnLyUqZXF1YWxyb3dzR1EmZmFsc2VGJy8lLWVxdWFsY29sdW1uc0dGX3EvJS1kaXNwbGF5c3R5bGVHRl9xLyUlc2lkZUdRJnJpZ2h0RicvJTBtaW5sYWJlbHNwYWNpbmdHRmJwLyUnZmFtaWx5R1EwVGltZXN+TmV3flJvbWFuRicvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRl9xRlZGVi9JK21zZW1hbnRpY3NHRiRRJ01hdHJpeEYnLyUlb3BlbkdRJyZsc3FiO0YnLyUmY2xvc2VHUScmcnNxYjtGJ0Zhci1GLDYpLUYvNictRjI2OC1GNTYnLUY4NigtRjs2KEY9RmlxRj5GXHJGX3JGQUZERkdGSUZLRk4tRjg2KC1GUzYnRlVGaXFGXHJGX3JGVkZERkdGSUZLRk5GREZHRkktRjU2Jy1GODYoLUYvNigtSSNtb0dGJDYwUSomdW1pbnVzMDtGJ0ZpcUZcckZfckZWLyUmZmVuY2VHRl9xLyUqc2VwYXJhdG9yR0ZfcS8lKXN0cmV0Y2h5R0ZfcS8lKnN5bW1ldHJpY0dGX3EvJShsYXJnZW9wR0ZfcS8lLm1vdmFibGVsaW1pdHNHRl9xLyUnYWNjZW50R0ZfcS8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRmR1LUZTNidGTUZpcUZcckZfckZWRmlxRlxyRl9yRlZGREZHRklGS0ZORmJzRkRGR0ZJLUY1NidGZnNGXHRGREZHRkktRjU2J0Zmc0Zmc0ZERkdGSUZdb0Zgb0Zib0Zkb0Zmb0Zob0ZbcEZdcEZgcEZjcEZmcEZocEZqcEZdcUZgcUZicUZkcUZncUZpcUZcckZfckZWRmlxRlxyRl9yRlYvRmVyUSJbRicvRmhyUSJdRic=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyNYLCUhR0YoRihbZ2whIiUhISEjKSIlIiMtSSNtaUc2JEYmL0krbW9kdWxlbmFtZUdGKEYkNiNRInhGKC1JI21uR0YwNiNRKyZ1bWludXMwOzFGKC1GNjYjUSIwRihGOUY5Ri5GNUY5NyMtSSdNYXRyaXhHRiU2Iy9JJCVpZEdGKCI1QzYrZE9gIVwkKm8k</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Sylvester</Text-field></Title>
+<Group labelreference="L39" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Matrix_syl := proc(F,delta,x)
+  local t,d0,d,maxdeg,delta0,P,M,X,i,j;
+  t       := nops(F)-1;
+  d0      := degree(F[1],x);
+  d       := [seq(degree(F[i+1],x), i=1..t)];
+  maxdeg  := max(seq(d[i]+delta[i], i=1..t));
+  delta0  := max(maxdeg-d0,0);
+  maxdeg  := max(maxdeg,d0+delta0);
+  P       := [seq(seq(x^j*F[i+1], j=0..delta[i]-1), i=1..t)];
+  P       := [seq(x^i*F[1], i=0..delta0-1), op(P)];
+  M       := Matrix(add(delta)+delta0,maxdeg, (i,j)-&gt;coeff(P[i], x, j-1));
+  M       := Transpose(M);
+  X       := Matrix_X(d0,delta,delta0+d0,x); 
+  return Transpose(Matrix([M,X]));
+end:
+
+
+Sres_syl := proc(F,delta,x)
+  local M,R,t,delta0,c;
+  t      := nops(F)-1;
+  delta0 := max(max([seq(degree(F[i+1],x)+delta[i],i=1..t)])-degree(F[1],x),1-add(delta));
+  if delta0&lt;0 then return 0; fi;
+  if add(delta)&gt;0 then
+    M := Matrix_syl(F,delta,x);
+    R := (-1)^(degree(F[1],x)*delta0)*Determinant(M);
+  else
+    c := lcoeff(F[1],x)^(delta0-1);
+    R := c*F[1];
+  fi;
+  return collect(R,x);
+end:
+
+sres_syl := proc(F,delta,x)
+  local d,e;
+  d := degree(F[1],x);
+  e := (d+1)-add(delta);
+  return coeff(Sres_syl(F,delta,x),x,e-1);
+end:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L46" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">F := expand([add(a[0, i]*x^i, i = 0 .. 5), add(a[1, i]*x^i, i = 0 .. 4), add(a[2, i]*x^i, i = 0 .. 4)]);
+S_syl := Sres_syl(F,[2,1],x);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiRkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtZmVuY2VkR0YkNiYtRiM2Ky1GIzYuLUYjNiYtSSVtc3ViR0YkNiUtRiw2JVEiYUYnRi9GMi1GIzYmLUkjbW5HRiQ2JFEiMEYnRjktRjY2LVEoJmNvbW1hO0YnRjlGOy9GP0YxRkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTlEsMC4zMzMzMzMzZW1GJy1GW282JFEiNUYnRjlGOS8lL3N1YnNjcmlwdHNoaWZ0R0Zdby1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIRmJvL0ZORmNvLUklbXN1cEdGJDYlLUYsNiVRInhGJ0YvRjJGZm8vJTFzdXBlcnNjcmlwdHNoaWZ0R0Zdb0Y5LUY2Ni1RJyZwbHVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZbcS1GIzYmLUZZNiVGZW4tRiM2JkZqbkZeby1GW282JFEiNEYnRjlGOUZpb0ZbcC1GYHA2JUZicEZjcUZlcEY5RmdwLUYjNiYtRlk2JUZlbi1GIzYmRmpuRl5vLUZbbzYkUSIzRidGOUY5RmlvRltwLUZgcDYlRmJwRl5yRmVwRjlGZ3AtRiM2Ji1GWTYlRmVuLUYjNiZGam5GXm8tRltvNiRRIjJGJ0Y5RjlGaW9GW3AtRmBwNiVGYnBGaXJGZXBGOUZncC1GIzYmLUZZNiVGZW4tRiM2JkZqbkZeby1GW282JFEiMUYnRjlGOUZpb0ZbcEZicEY5RmdwLUZZNiVGZW4tRiM2JkZqbkZeb0ZqbkY5RmlvRjktRjY2LVEiLEYnRjlGO0Zhb0ZARkJGREZGRkhGYm9GZG8tRiM2LC1GIzYmLUZZNiVGZW4tRiM2JkZkc0Zeb0ZjcUY5RmlvRltwRmZxRjlGZ3AtRiM2Ji1GWTYlRmVuLUYjNiZGZHNGXm9GXnJGOUZpb0ZbcEZhckY5RmdwLUYjNiYtRlk2JUZlbi1GIzYmRmRzRl5vRmlyRjlGaW9GW3BGXHNGOUZncC1GIzYmLUZZNiVGZW4tRiM2JkZkc0Zeb0Zkc0Y5RmlvRltwRmJwRjlGZ3AtRlk2JUZlbi1GIzYmRmRzRl5vRmpuRjlGaW9GOUZbdC1GIzYsLUYjNiYtRlk2JUZlbi1GIzYmRmlyRl5vRmNxRjlGaW9GW3BGZnFGOUZncC1GIzYmLUZZNiVGZW4tRiM2JkZpckZeb0ZeckY5RmlvRltwRmFyRjlGZ3AtRiM2Ji1GWTYlRmVuLUYjNiZGaXJGXm9GaXJGOUZpb0ZbcEZcc0Y5RmdwLUYjNiYtRlk2JUZlbi1GIzYmRmlyRl5vRmRzRjlGaW9GW3BGYnBGOUZncC1GWTYlRmVuLUYjNiZGaXJGXm9Gam5GOUZpb0Y5LyUnZmFtaWx5R1EwVGltZXN+TmV3flJvbWFuRicvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRj1GOUY5LyUlb3BlbkdRJyZsc3FiO0YnLyUmY2xvc2VHUScmcnNxYjtGJ0Y5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJGR0YoNyUsLiomSSJ4R0YoIiImJkkiYUdGKDYkIiIhRjIiIiJGNyomRjEiIiUmRjQ2JEY2RjlGN0Y3KiZGMSIiJCZGNDYkRjZGPUY3RjcqJkYxIiIjJkY0NiRGNkZBRjdGNyomRjFGNyZGNDYkRjZGN0Y3RjcmRjQ2JEY2RjZGNywsKiZGMUY5JkY0NiRGN0Y5RjdGNyomRjFGPSZGNDYkRjdGPUY3RjcqJkYxRkEmRjQ2JEY3RkFGN0Y3KiZGMUY3JkY0NiRGN0Y3RjdGNyZGNDYkRjdGNkY3LCwqJkYxRjkmRjQ2JEZBRjlGN0Y3KiZGMUY9JkY0NiRGQUY9RjdGNyomRjFGQSZGNDYkRkFGQUY3RjcqJkYxRjcmRjQ2JEZBRjdGN0Y3JkY0NiRGQUY2Rjc3I0Yu</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzY8LUkjbWlHRiQ2JVEmU19zeWxGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNiYtSShtZmVuY2VkR0YkNiQtRiM2Oi1GIzYqLUklbXN1YkdGJDYlLUYsNiVRImFGJ0YvRjItRiM2Ji1JI21uR0YkNiRRIjBGJ0Y5LUY2Ni1RKCZjb21tYTtGJ0Y5RjsvRj9GMUZARkJGREZGRkgvRktRJjAuMGVtRicvRk5RLDAuMzMzMzMzM2VtRictRltvNiRRIjJGJ0Y5RjkvJS9zdWJzY3JpcHRzaGlmdEdGXW8tRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSEZiby9GTkZjby1GWTYlRmVuLUYjNiYtRltvNiRRIjFGJ0Y5Rl5vLUZbbzYkUSIzRidGOUY5RmlvRltwLUZZNiVGZW4tRiM2JkZjcEZeby1GW282JFEiNEYnRjlGOUZpb0ZbcC1GWTYlRmVuLUYjNiZGZm9GXm9GXXFGOUZpb0Y5LUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GaHEtRiM2KEZYRltwLUkobXN1YnN1cEdGJDYnRmVuRltxRmZvLyUxc3VwZXJzY3JpcHRzaGlmdEdGXW9GaW9GW3AtRlk2JUZlbi1GIzYmRmZvRl5vRmZwRjlGaW9GOUZkcS1GIzYqLUZZNiVGZW4tRiM2JkZqbkZeb0ZmcEY5RmlvRltwLUZZNiVGZW4tRiM2JkZjcEZeb0Zmb0Y5RmlvRltwRmlwRltwRmBxRjktRjY2LVEnJnBsdXM7RidGOUY7Rj5GQEZCRkRGRkZIRmdxRmlxLUYjNihGZ3JGW3BGXHJGW3AtRlk2JUZlbi1GIzYmRmZvRl5vRmZvRjlGaW9GOUZfcy1GIzYqLUZZNiVGZW4tRiM2JkZqbkZeb0ZdcUY5RmlvRltwRltzRltwRmlwRltwRmFyRjlGZHEtRiM2KkZqc0ZbcEZfcEZbcEZpcEZbcEZkc0Y5RmRxLUYjNiotRlk2JUZlbi1GIzYmRmpuRl5vLUZbbzYkUSI1RidGOUY5RmlvRltwLUZZNiVGZW4tRiM2JkZjcEZeb0ZjcEY5RmlvRltwRl9wRltwRmBxRjlGX3MtRiM2KkZidEZbcEZpdEZbcEZpcEZbcEZhckY5Rl9zLUYjNihGYnRGW3AtRl1yNidGZW5GXXNGZm9GX3JGaW9GW3BGYHFGOUZkcS1GIzYqRmJ0RltwRltzRltwRl9wRltwRmFyRjlGZHEtRiM2KkZidEZbcEZbc0ZbcEZpcEZbcEZkc0Y5Rl9zLUYjNihGYnRGW3AtRl1yNidGZW5GYXBGZm9GX3JGaW9GW3BGZHNGOUY5RjlGW3AtSSVtc3VwR0YkNiUtRiw2JVEieEYnRi9GMkZmb0ZfckY5Rl9zLUYjNiYtRlI2JC1GIzY6LUYjNiotRlk2JUZlbi1GIzYmRmpuRl5vRmNwRjlGaW9GW3BGX3BGW3BGaXBGW3BGYHFGOUZkcS1GIzYoRml2RltwRlxyRltwRmFyRjlGZHEtRiM2KkZnckZbcEZpdEZbcEZpcEZbcEZgcUY5Rl9zLUYjNihGZ3JGW3BGXHJGW3AtRlk2JUZlbi1GIzYmRmZvRl5vRmNwRjlGaW9GOUZfcy1GIzYqRmpzRltwRml0RltwRmlwRltwRmFyRjlGZHEtRiM2KkZqc0ZbcEZfcEZbcEZpcEZbcEZjd0Y5RmRxLUYjNipGYnRGW3AtRlk2JUZlbi1GIzYmRmNwRl5vRmpuRjlGaW9GW3BGX3BGW3BGYHFGOUZfcy1GIzYqRmJ0RltwRl14RltwRmlwRltwRmFyRjlGX3MtRiM2KkZidEZbcEZpdEZbcEZbc0ZbcEZgcUY5RmRxLUYjNipGYnRGW3BGaXRGW3BGX3BGW3BGYXJGOUZkcS1GIzYqRmJ0RltwRltzRltwRmlwRltwRmN3RjlGX3MtRiM2KEZidEZbcEZpdUZbcEZjd0Y5RjlGOUZbcEZedkY5Rl9zLUYjNiotRlk2JUZlbi1GIzYmRmpuRl5vRmpuRjlGaW9GW3BGX3BGW3BGaXBGW3BGYHFGOUZkcS1GIzYoRl15RltwRlxyRltwRmFyRjlGZHEtRiM2KkZnckZbcEZdeEZbcEZpcEZbcEZgcUY5Rl9zLUYjNihGZ3JGW3BGXHJGW3AtRlk2JUZlbi1GIzYmRmZvRl5vRmpuRjlGaW9GOUZfcy1GIzYqRmpzRltwRl14RltwRmlwRltwRmFyRjlGZHEtRiM2KkZqc0ZbcEZfcEZbcEZpcEZbcEZneUY5Rl9zLUYjNipGYnRGW3BGXXhGW3BGW3NGW3BGYHFGOUZkcS1GIzYqRmJ0RltwRl14RltwRl9wRltwRmFyRjlGZHEtRiM2KkZidEZbcEZbc0ZbcEZpcEZbcEZneUY5Rl9zLUYjNihGYnRGW3BGaXVGW3BGZ3lGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSZTX3N5bEdGKCw6KiYsOioqJkkiYUdGKDYkIiIhIiIjIiIiJkYzNiRGNyIiJEY3JkYzNiRGNyIiJUY3JkYzNiRGNkY9RjdGNyooRjJGN0Y7RjYmRjM2JEY2RjpGNyEiIioqJkYzNiRGNUY6RjcmRjM2JEY3RjZGN0Y7RjdGPkY3RkMqKEZFRjdGO0Y2JkYzNiRGNkY2RjdGNyoqJkYzNiRGNUY9RjdGR0Y3RjtGN0ZBRjdGNyoqRk1GN0Y4RjdGO0Y3RkpGN0ZDKiomRjM2JEY1IiImRjcmRjM2JEY3RjdGN0Y4RjdGPkY3RkMqKkZRRjdGVEY3RjtGN0ZBRjdGNyooRlFGN0ZHRjZGPkY3RjcqKkZRRjdGR0Y3RjhGN0ZBRjdGQyoqRlFGN0ZHRjdGO0Y3RkpGN0ZDKihGUUY3RjhGNkZKRjdGN0Y3SSJ4R0YoRjZGNyomLDoqKiZGMzYkRjVGN0Y3RjhGN0Y7RjdGPkY3RjcqKEZpbkY3RjtGNkZBRjdGQyoqRkVGN0ZURjdGO0Y3Rj5GN0ZDKihGRUY3RjtGNiZGMzYkRjZGN0Y3RjcqKkZNRjdGVEY3RjtGN0ZBRjdGNyoqRk1GN0Y4RjdGO0Y3Rl5vRjdGQyoqRlFGNyZGMzYkRjdGNUY3RjhGN0Y+RjdGQyoqRlFGN0Zjb0Y3RjtGN0ZBRjdGNyoqRlFGN0ZURjdGR0Y3Rj5GN0Y3KipGUUY3RlRGN0Y4RjdGQUY3RkMqKkZRRjdGR0Y3RjtGN0Zeb0Y3RkMqKEZRRjdGOEY2Rl5vRjdGN0Y3RmVuRjdGNyoqJkYzNiRGNUY1RjdGOEY3RjtGN0Y+RjdGNyooRltwRjdGO0Y2RkFGN0ZDKipGRUY3RmNvRjdGO0Y3Rj5GN0ZDKihGRUY3RjtGNiZGMzYkRjZGNUY3RjcqKkZNRjdGY29GN0Y7RjdGQUY3RjcqKkZNRjdGOEY3RjtGN0ZgcEY3RkMqKkZRRjdGY29GN0ZHRjdGPkY3RjcqKkZRRjdGY29GN0Y4RjdGQUY3RkMqKkZRRjdGR0Y3RjtGN0ZgcEY3RkMqKEZRRjdGOEY2RmBwRjdGNzcjRi4=</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Barnett</Text-field></Title>
+<Group labelreference="L42" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Sres_bar := proc(F,delta,x)
+  local t,d0,delta0,M,R,c;
+  t      := nops(F)-1;
+  d0     := degree(F[1],x);
+  delta0 := max([seq(degree(F[i+1],x)+delta[i],i=1..t)])-d0;
+  delta0 := max(delta0,1-add(delta));
+  if delta0&lt;0 then return 0; fi;
+  if add(delta)&gt;0 then
+    M := Matrix_bar(F,delta,x);
+    c := lcoeff(F[1],x)^(delta0);
+    R := c*Determinant(M);
+  else
+    c := lcoeff(F[1],x)^(delta0-1);
+    R := c*F[1];
+  fi;
+  R := collect(R,x);
+  return R;
+end:
+
+sres_bar := proc(F,delta,x);
+  local d,e;
+  d  := degree(F[1],x);
+  e  := (d+1)-add(delta);
+  return factor(coeff(Sres_bar(F,delta,x),x,e-1));
+end:
+
+Matrix_bar := proc(F, delta,x):
+  local t,d0,C,lc,d,R,M,i,k,X;
+  t   := nops(F)-1;
+  d0  := degree(F[1],x);
+  lc  := lcoeff(F[1],x);
+  if lc=1 then
+    C   := CompanionMatrix(F[1],x);
+  else
+    C   := CompanionMatrix(F[1],x)[1];
+    for i from 1 to d0 do
+      C[i,d0] := C[i,d0]/lc;
+    od;
+  fi;
+  for k from 1 to t do
+    d    := degree(F[k+1], x);
+    R[k] := map(factor,add(coeff(F[k+1],x,i)*C^i.IdentityMatrix(d0),i=0..d));
+  od;
+  M := Matrix([seq(R[i], i=1..t)]);
+  M := SubMatrix(M, [1..d0], [seq(1+(i-1)*d0..delta[i]+(i-1)*d0, i=1..t)]);
+  X := Matrix_X(d0,delta,d0,x);
+  M := Transpose(Matrix([M,X]));
+  return M;
+end:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L47" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">S_bar := Sres_bar(F,[2,1],x):
+factor(S_bar/S_syl);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEiMUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJw==">IiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L48" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Bezout</Text-field></Title>
+<Group labelreference="L43" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Sres_bez := proc(F,delta,x)
+  local t,d0,delta0,M,R,c;
+  t      := nops(F)-1;
+  d0     := degree(F[1],x);
+  delta0 := max([seq(degree(F[i+1],x)+delta[i],i=1..t)])-d0;
+  delta0 := max(delta0,1-add(delta));
+  if delta0&lt;0 then return 0; fi;
+  if add(delta)&gt;0 then
+    M := Matrix_bez(F,delta,x);
+    c := lcoeff(F[1],x)^(delta0-add(delta));
+    R := c*Determinant(M);
+  else
+    c := lcoeff(F[1],x)^(delta0-1);
+    R := c*F[1];
+  fi;
+  
+  R := collect(factor(R),x);
+  return R;
+end:
+
+sres_bez := proc(F,delta,x);
+  local d,e;
+  d  := degree(F[1],x);
+  e  := (d+1)-add(delta);
+  return factor(coeff(Sres_bez(F,delta),x,e-1));
+end:
+
+Matrix_bez := proc(F,delta,x)
+  local t,k,d0,i,P,R,X,M;
+  t := nops(F)-1;
+  d0 := degree(F[1],x):
+  for k from 1 to t do
+    P    := collect(simplify((F[1]*eval(F[k+1], x=y)-F[k+1]*eval(F[1],x=y))/(x-y)),{x,y},'distributed');
+    R[k] := Matrix(d0,d0,(i,j)-&gt;coeff(coeff(P,x,d0-j), y, i-1)):
+  od;
+  M := Matrix([seq(R[i], i=1..t)]);
+  M := SubMatrix(M, [1..d0], [seq(1+(i-1)*d0..delta[i]+(i-1)*d0, i=1..t)]);
+  X := Matrix_X(d0,delta,d0,x);
+  M := Transpose(Matrix([M,X]));
+  return M;
+end:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L49" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">S_bez := Sres_bez(F,[2,1],x):
+factor(S_bez/S_syl);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEiMUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJw==">IiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L50" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Hybrid Bezout</Text-field></Title>
+<Group hide-input="false" labelreference="L30" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Sres_hb := proc(F,delta,x)
+  local t,d0,d,delta0,M,R,c;
+  t      := nops(F)-1;
+  d0     := degree(F[1],x);
+  d      := [seq(degree(F[i+1],x), i=1..t)];
+  delta0 := max([seq(degree(F[i+1],x)+delta[i],i=1..t)])-d0;
+  delta0 := max(delta0,1-add(delta));
+  if delta0&lt;0 then return 0; fi;
+  if add(delta)&gt;0 then
+    M := Matrix_hb(F,delta,x);
+    c := lcoeff(F[1],x)^(delta0-add(max(0,delta[i]+d[i]-d0), i=1..t));
+    R := c*Determinant(M);
+  else
+    c := lcoeff(F[1],x)^(delta0-1);
+    R := c*F[1];
+  fi;
+  
+  R := collect(R,x);
+  return R;
+end:
+
+sres_hb := proc(F,delta,x);
+  local d,e;
+  d  := degree(F[1],x);
+  e  := (d+1)-add(delta);
+  return factor(coeff(Sres_hb(F,delta,x),x,e-1));
+end:
+
+Matrix_J := proc(d0)
+  local J,i;
+  J   := Matrix(d0,d0,0);
+  for i from 1 to d0 do
+    J[i,  d0+1-i] :=  1;
+  od;
+  return J;
+end:
+
+Matrix_hb := proc(F,delta,x)
+  local t,k,d0,i,P,R,X,M,J;
+  t  := nops(F)-1;
+  d0 := degree(F[1],x):
+  J  := Matrix_J(d0);
+  for k from 1 to t do
+    R[k] :=convert(evalm(J&amp;*(BezoutMatrix(F[1], F[k+1], x))&amp;*J),Matrix):
+    if k=1 then
+      M := R[k];
+    else
+      M := &lt;M,R[k]&gt;;
+    fi;
+  od;
+  M := SubMatrix(M,[seq(1+(i-1)*d0..delta[i]+(i-1)*d0, i=1..t)],[1..d0]);
+  X := Matrix_X(d0,delta,d0,x);
+  X := Transpose(X);
+  M := &lt;M,X&gt;;
+  return M;
+end:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L51" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">S_hb := Sres_hb(F,[2,1],x):
+factor(S_hb/S_syl);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEiMUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJw==">IiIi</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Non-homogeneous Bezout</Text-field></Title>
+<Group labelreference="L37" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Sres_nhb := proc(F,delta,x)
+  local t,d0,d,delta0,M,R,c;
+  t      := nops(F)-1;
+  d0     := degree(F[1],x);
+  delta0 := max([seq(degree(F[i+1],x)+delta[i],i=1..t)])-d0;
+  delta0 := max(delta0,1-add(delta));
+  d      := [seq(degree(F[i+1],x), i=1..t)];
+  if delta0&lt;0 then return 0; fi;
+  if add(delta)&gt;0 then
+    M := Matrix_nhb(F,delta,x);
+    c := lcoeff(F[1],x)^(delta0-add(max(0,delta[i]+d[i]-d0), i=1..t));
+    R := c*Determinant(M);
+  else
+    c := lcoeff(F[1],x)^(delta0-1);
+    R := c*F[1];
+  fi;
+  
+  R := collect(factor(R),x);
+  return R;
+end:
+
+sres_nhb := proc(F,delta,x);
+  local d,e;
+  d  := degree(F[1],x);
+  e  := (d+1)-add(delta);
+  return factor(coeff(Sres_nhb(F,delta,x),x,e-1));
+end:
+
+Matrix_nhb := proc(F,delta,x)
+  local t,k,d0,i,d,P,R,X,M,Q,N,U;
+  t := nops(F)-1;
+  d0 := degree(F[1],x):
+  d  := [seq(degree(F[i+1],x), i=1..t)];
+  for k from 1 to t do
+    Q    := [seq(x^j*F[k+1], j=0..d0-d[k]-1)];
+    N[k] := Matrix(d0-d[k],d0,(i,j)-&gt;coeff(Q[i],x,j-1)):
+    P    := collect(simplify((F[1]*eval(F[k+1], x=y)-F[k+1]*eval(F[1],x=y))/(x-y)),{x,y},'distributed');
+    R[k] := Matrix(d[k],d0,(i,j)-&gt;coeff(coeff(P,x,d[k]-i), y, j-1)):
+    R[k] := Matrix(&lt;N[k],R[k]&gt;);
+    R[k] := SubMatrix(R[k],[1..delta[k]],[1..d0]);
+    if k=1 then
+      M  := R[k];
+    else
+      M := &lt;M,R[k]&gt;;
+    fi;
+  od;
+  X := Matrix_X(d0,delta,d0,x);
+  M := &lt;M, Transpose(X)&gt;;
+  return M;
+end:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L52" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">S_nhb := Sres_nhb(F,[2,1],x):
+factor(S_nhb/S_syl);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEiMUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJw==">IiIi</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">Examples</Text-field></Title>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Test example generating</Text-field></Title>
+<Group labelreference="L57" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">m,n,p := 15,11,10;
+Deltas := Gen_deltas(2,m):
+F := [randpoly([x, y, z], dense, homogeneous, degree = m), randpoly([x, y, z], dense, homogeneous, degree = n), randpoly([x, y, z], dense, homogeneous, degree = p)]:
+
+tt := time():
+for delta in Deltas do
+  Sres_bez(F, delta, x);
+od:
+time()-tt;
+
+
+tt := time():
+for delta in Deltas do
+  Sres_nhb(F, delta, x);
+od:
+time()-tt;
+
+tt := time():
+for delta in Deltas do
+  Sres_hb(F, delta, x);
+od:
+time()-tt;
+
+tt := time():
+for delta in Deltas do
+  Sres_syl(F, delta, x);
+od:
+time()-tt;
+
+tt := time():
+for delta in Deltas do
+  Sres_bar(F, delta, x);
+od:
+time()-tt;</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Profiling for Bez, Hybrid Bez and Non-homogeneous Bez</Text-field></Title>
+<Group hide-input="false" labelreference="L29" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">m,n,p := 12,11,10;
+Deltas := Gen_deltas(2,m):
+F := [randpoly([x, y, z], dense, homogeneous, degree = m), randpoly([x, y, z], dense, homogeneous, degree = n), randpoly([x, y, z], dense, homogeneous, degree = p)]:
+with(CodeTools[Profiling]):
+Profile(Sres_bez,Sres_nhb,Sres_hb,Matrix_hb):
+for delta in Deltas do
+#  print(`===========================================`);
+#  print(`delta=`,delta);
+  time(Sres_bez(F, delta, x)),
+  time(Sres_nhb(F, delta, x)),
+  time(Sres_hb(F, delta, x));
+od:
+PrintProfiles(Sres_bez):
+PrintProfiles(Sres_nhb):
+PrintProfiles(Sres_hb):
+PrintProfiles(Matrix_hb):</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYuLUkjbWlHRiQ2JVEibUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKCZjb21tYTtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRiw2JVEibkYnRi9GMkY1LUYsNiVRInBGJ0YvRjItRjY2LVEpJkFzc2lnbjtGJ0Y5RjsvRj9GPUZARkJGREZGRkgvRktRLDAuMjc3Nzc3OGVtRicvRk5GZW4tSSNtbkdGJDYkUSMxMkYnRjlGNS1GaG42JFEjMTFGJ0Y5RjUtRmhuNiRRIzEwRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+NiVJIm1HRihJIm5HRihJInBHRig2JSIjNyIjNiIjNTclRjJGM0Y0</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Sres_bez
+Sres_bez := proc(F, delta, x)
+local t, d0, delta0, M, R, c, i;
+     |Calls Seconds  Words|
+PROC |   91   1.078 62707765|
+   1 |   91   0.000      0| t := nops(F)-1;
+   2 |   91   0.000    273| d0 := degree(F[1],x);
+   3 |   91   0.000   1729| delta0 := max([seq(degree(F[i+1],x)+delta[i],i = 1
+                              .. t)])-d0;
+   4 |   91   0.000   1911| delta0 := max(delta0,1-add(delta));
+   5 |   91   0.000    273| if delta0 &lt; 0 then
+   6 |    0   0.000      0|     return 0
+                            end if;
+   7 |   91   0.000   2184| if 0 &lt; add(delta) then
+   8 |   90   0.498 27066530|     M := Matrix_bez(F,delta,x);
+   9 |   90   0.000   4798|     c := lcoeff(F[1],x)^(delta0-add(delta));
+  10 |   90   0.533 34748236|     R := c*LinearAlgebra:-Determinant(M)
+                            else
+  11 |    1   0.000     20|     c := lcoeff(F[1],x)^(delta0-1);
+  12 |    1   0.000      5|     R := c*F[1]
+                            end if;
+  13 |   91   0.047 881806| R := collect(factor(R),x);
+  14 |   91   0.000      0| return R
+end proc
+
+Sres_nhb
+Sres_nhb := proc(F, delta, x)
+local t, d0, d, delta0, M, R, c, i;
+     |Calls Seconds  Words|
+PROC |   91   1.064 45601490|
+   1 |   91   0.000      0| t := nops(F)-1;
+   2 |   91   0.000    273| d0 := degree(F[1],x);
+   3 |   91   0.000   1729| delta0 := max([seq(degree(F[i+1],x)+delta[i],i = 1
+                              .. t)])-d0;
+   4 |   91   0.000   1911| delta0 := max(delta0,1-add(delta));
+   5 |   91   0.000   1729| d := [seq(degree(F[i+1],x),i = 1 .. t)];
+   6 |   91   0.000    273| if delta0 &lt; 0 then
+   7 |    0   0.000      0|     return 0
+                            end if;
+   8 |   91   0.000   2184| if 0 &lt; add(delta) then
+   9 |   90   0.469 9849862|     M := Matrix_nhb(F,delta,x);
+  10 |   90   0.000   3081|     c := lcoeff(F[1],x)^(delta0-add(max(0,delta[i]
+                                  +d[i]-d0),i = 1 .. t));
+  11 |   90   0.531 32160392|     R := c*LinearAlgebra:-Determinant(M)
+                            else
+  12 |    1   0.000     20|     c := lcoeff(F[1],x)^(delta0-1);
+  13 |    1   0.000      5|     R := c*F[1]
+                            end if;
+  14 |   91   0.064 3580031| R := collect(factor(R),x);
+  15 |   91   0.000      0| return R
+end proc
+
+Sres_hb
+Sres_hb := proc(F, delta, x)
+local t, d0, d, delta0, M, R, c, i;
+     |Calls Seconds  Words|
+PROC |   91   3.435 105216676|
+   1 |   91   0.000      0| t := nops(F)-1;
+   2 |   91   0.000    273| d0 := degree(F[1],x);
+   3 |   91   0.000   1729| d := [seq(degree(F[i+1],x),i = 1 .. t)];
+   4 |   91   0.000   1729| delta0 := max([seq(degree(F[i+1],x)+delta[i],i = 1
+                              .. t)])-d0;
+   5 |   91   0.000   1911| delta0 := max(delta0,1-add(delta));
+   6 |   91   0.000    273| if delta0 &lt; 0 then
+   7 |    0   0.000      0|     return 0
+                            end if;
+   8 |   91   0.000   2184| if 0 &lt; add(delta) then
+   9 |   90   0.000   4500|     M := Matrix_hb(F,delta,x);
+  10 |   90   0.000   3081|     c := lcoeff(F[1],x)^(delta0-add(max(0,delta[i]
+                                  +d[i]-d0),i = 1 .. t));
+  11 |   90   3.435 105028506|     R := c*LinearAlgebra:-Determinant(M)
+                            else
+  12 |    1   0.000     20|     c := lcoeff(F[1],x)^(delta0-1);
+  13 |    1   0.000      5|     R := c*F[1]
+                            end if;
+  14 |   91   0.000 172465| R := collect(R,x);
+  15 |   91   0.000      0| return R
+end proc
+
+Matrix_hb
+Matrix_hb := proc(F, delta, x)
+local t, k, d0, i, P, R, X, M, J;
+     |Calls Seconds  Words|
+PROC |   90   0.813 33141167|
+   1 |   90   0.000      0| t := nops(F)-1;
+   2 |   90   0.000    270| d0 := degree(F[1],x);
+   3 |   90   0.000  99990| J := Matrix_J(d0);
+   4 |   90   0.000      0| for k to t do
+   5 |  180   0.813 32849194|     R[k] := convert(evalm((J &amp;* LinearAlgebra:-
+                                  BezoutMatrix(F[1],F[k+1],x)) &amp;* J),Matrix);
+   6 |  180   0.000    540|     if k = 1 then
+   7 |   90   0.000    180|         M := R[k]
+                                else
+   8 |   90   0.000  27990|         M := &lt;M, R[k]&gt;
+                                end if
+                            end do;
+   9 |   90   0.000  21966| M := LinearAlgebra:-SubMatrix(M,[seq(1+(i-1)*d0 ..
+                            delta[i]+(i-1)*d0,i = 1 .. t)],[1 .. d0]);
+  10 |   90   0.000  95851| X := Matrix_X(d0,delta,d0,x);
+  11 |   90   0.000  30336| X := LinearAlgebra:-Transpose(X);
+  12 |   90   0.000  14850| M := &lt;M, X&gt;;
+  13 |   90   0.000      0| return M
+end proc
+
+</Text-field>
+</Output>
+</Group>
+</Section>
+</Section>
+<Group labelreference="L31" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>
